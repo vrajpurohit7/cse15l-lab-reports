@@ -1,4 +1,5 @@
-
+[Index page](https://vrajpurohit7.github.io/cse15l-lab-reports/index.html)
+---
 ![Image](choco.png)
 ---
 [Lab Report 1](bla.html)
