@@ -10,7 +10,7 @@ This is fun.
 
 ![Image](https://i.ndtvimg.com/i/2016-01/chocolate-dark-chocolate-chocolate-bars_650x488_61451973505.jpg)
 
-# `Yes IT IS.`
+# `Yes IT IS!`
 ```
 # code block
 print ("Crazyyyy")
