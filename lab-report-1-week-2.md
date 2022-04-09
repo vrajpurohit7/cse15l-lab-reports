@@ -10,7 +10,7 @@
 ## 6. Optimizing Remote Running
 
 ### I hope this tutorial helped in underestanding how to setup remote access and to log into a course-specific account on `ieng6`.
----
+
 # Thank you!
 ## Have a nice day...
 
