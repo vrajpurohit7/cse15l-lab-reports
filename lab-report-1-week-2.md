@@ -183,5 +183,3 @@ Credits:
 Week 1 Lab - for conent
 
 Group 1 Lab 1 assignment - for images.
-
-[Lab Report 1](https://vrajpurohit7.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
