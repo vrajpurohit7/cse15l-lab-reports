@@ -167,6 +167,8 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 - You can use the up-arrow on your keyboard to recall the last command that was run
 
+![Image](pic6.png)
+
 
 ### I hope this tutorial helped in underestanding how to setup remote access and to log into a course-specific account on `ieng6`.
 
