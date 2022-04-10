@@ -4,7 +4,7 @@
 ## 1. Installing VScode
 - Go to the Visual Studio Code website https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like OSX (for Macs) and Windows (for PCs).
 - When it is installed, you should be able to open a window that looks like this (it might have different colors, or a different menu bar, depending on your system and settings):
-- 
+
 ![Image](pic1.png)
 
 ## 2. Remotely Connecting
