@@ -1,8 +1,10 @@
 # ***Remote Access***
 ### Here's a Step-by-Step process on how to log into a course-specific account on `ieng6`.
-Hi!
 
 ## 1. Installing VScode
+Go to the Visual Studio Code website https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like OSX (for Macs) and Windows (for PCs).
+When it is installed, you should be able to open a window that looks like this (it might have different colors, or a different menu bar, depending on your system and settings):
+
 ## 2. Remotely Connecting
 ## 3. Trying Some Commands
 ## 4. Moving Files with `scp`
@@ -11,8 +13,13 @@ Hi!
 
 ### I hope this tutorial helped in underestanding how to setup remote access and to log into a course-specific account on `ieng6`.
 
-# Thank you!
+# Thank you! 
 ## Have a nice day...
+---
+
+Credits:
+
+Week 1 Lab - for and Group 1 Lab.
 
 
 
