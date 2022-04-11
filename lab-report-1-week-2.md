@@ -20,33 +20,33 @@ $ ssh cs15lsp22zz@ieng6.ucsd.edu
 ```
 - Since this is likely the first time you’ve connected to this server, you will probably get a message like this:
 ```
-⤇ ssh cs15lsp22zz@ieng6.ucsd.edu
-The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ⤇ ssh cs15lsp22zz@ieng6.ucsd.edu
+    The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+    RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 - Say yes to these messages when you are connecting to a new server for the first time; it’s expected to get this message in that case. If you get this message when you’re connecting to a server you connect too often, it could mean someone is trying to listen in on or control the connection.
 
 - So type `yes` and press enter, then give your password; the whole interaction should look something like this once you give your password and are logged in:
 ```
-⤇ ssh cs15lsp22zz@ieng6.ucsd.edu
-The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
-RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? 
-Password: 
-Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
-quota: No filesystem specified.
-Hello cs15lsp22zz, you are currently logged into ieng6-203.ucsd.edu
+    ⤇ ssh cs15lsp22zz@ieng6.ucsd.edu
+    The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+    RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+    Password: 
+    Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
+    quota: No filesystem specified.
+    Hello cs15lsp22zz, you are currently logged into ieng6-203.ucsd.edu
 
-You are using 0% CPU on this system
+    You are using 0% CPU on this system
 
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   23:25:01   0  0.08,  0.17,  0.11
-ieng6-202   23:25:01   1  0.09,  0.15,  0.11
-ieng6-203   23:25:01   1  0.08,  0.15,  0.11
+    Cluster Status 
+    Hostname     Time    #Users  Load  Averages  
+    ieng6-201   23:25:01   0  0.08,  0.17,  0.11
+    ieng6-202   23:25:01   1  0.09,  0.15,  0.11
+    ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
-Sun Jan 02, 2022 11:28pm - Prepping cs15lsp22
+    Sun Jan 02, 2022 11:28pm - Prepping cs15lsp22
 ```
 
 ![Image](pic2.png)
@@ -77,14 +77,14 @@ So far we’ve seen how we can do some work on local and remote computers. One k
 
 We’ll now see another way to copy a file (or many files!) from your computer to a remote computer. The command is called `scp`, and we will always run it from the client (that means from your computer, not logged into `ieng6`). Create a file on your computer called WhereAmI.java and put the following contents into it:
 ```
-class WhereAmI {
-  public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
-  }
-}
+    class WhereAmI {
+            public static void main(String[] args) {
+            System.out.println(System.getProperty("os.name"));
+            System.out.println(System.getProperty("user.name"));
+            System.out.println(System.getProperty("user.home"));
+            System.out.println(System.getProperty("user.dir"));
+        }
+    }
 ```
 Run it using `javac` and `java` on your computer. (If you don’t have java installed on your computer, skip this step).
 
@@ -113,31 +113,31 @@ Then, the `ssh` command can use the pair of files in place of your password. Thi
 
 Here’s what you should run to set this up:
 ```
-# on client (your computer)
-$ ssh-keygen
-Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
-Enter passphrase (empty for no passphrase):
+    # on client (your computer)
+    $ ssh-keygen
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+    Enter passphrase (empty for no passphrase):
 ```
 Note: Make sure that you do not add a passphrase for this step.
 ```
-Enter same passphrase again: 
-Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
-Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
-The key's randomart image is:
-+---[RSA 3072]----+
-|                 |
-|       . . + .   |
-|      . . B o .  |
-|     . . B * +.. |
-|      o S = *.B. |
-|       = = O.*.*+|
-|        + * *.BE+|
-|           +.+.o |
-|             ..  |
-+----[SHA256]-----+
+    Enter same passphrase again: 
+    Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
+    Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
+    The key fingerprint is:
+    SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
+    The key's randomart image is:
+    +---[RSA 3072]----+
+    |                 |
+    |       . . + .   |
+    |      . . B o .  |
+    |     . . B * +.. |
+    |      o S = *.B. |
+    |       = = O.*.*+|
+    |        + * *.BE+|
+    |           +.+.o |
+    |             ..  |
+    +----[SHA256]-----+
 ```
 - If you’re on Windows, follow the extra ssh-add steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
@@ -145,14 +145,14 @@ This created two new files on your system; the private key (in a file `id_rsa`) 
 
 Now we need to copy the *public* (not the private) key to the `.ssh` directory of your user account on the server.
 ```
-$ ssh cs15lsp22zz@ieng6.ucsd.edu
-<Enter Password>
-# now on server
-$ mkdir .ssh
-$ <logout>
-# back on client
-$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
-# You use your username and the path you saw in the command above
+    $ ssh cs15lsp22zz@ieng6.ucsd.edu
+    <Enter Password>
+    # now on server
+    $ mkdir .ssh
+    $ <logout>
+    # back on client
+    $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+    # You use your username and the path you saw in the command above
 ```
 Once you do this, you should be able to `ssh` or `scp` from this client to the server without entering your password.
 
@@ -165,7 +165,7 @@ Here are a few ways to make this process more pleasent for making a *local* edit
 `$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
 - You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
 ```
-$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+    $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 - You can use the up-arrow on your keyboard to recall the last command that was run
 
