@@ -92,6 +92,10 @@ Then, in the terminal from the directory where you made this file, run this comm
 
 `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
+Here's what you'll see:
+
+![Image](pic7.png)
+
 You should be prompted for a password just like when you log in with `ssh`.
 
 Then, log into ieng6 with ssh again, and use `ls`. You should see the file there in your home directory!
@@ -99,6 +103,7 @@ Then, log into ieng6 with ssh again, and use `ls`. You should see the file there
 Now you can run it on the *ieng6 computer* using `javac` and `java`.
 
 ![Image](pic4.png)
+
 
 ## 5. Setting an SSH Key
 So far, we’ve seen how to log in, run commands, and copy files to a remote server with `ssh` and `scp`. Every time we log in or run `scp`, we have to type (or copy-paste) our password. This is frustrating, time consuming, and interrupts whatever task we were trying to do. 
