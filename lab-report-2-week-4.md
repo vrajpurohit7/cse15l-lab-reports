@@ -23,12 +23,12 @@ We solve this issue by including an if-statement:
 This monitors the indexs and doesn't let the code give an out of bound error.
 
 ## 3) Addresing invalid links:
-Faliure inducing input: [Test file 3]()
+Faliure inducing input: [Test file 3](https://github.com/vrajpurohit7/markdown-parser/blob/main/test-file2.md)
 
 The above test file caused wrong printing of the links:
 ![Image](2-invalid-link.png)
 
 We solved this issue by implimenting a for loop and if statements:
-![Image]()
+![Image](2-invalid-link-correction.png)
 
 These lines made sure that any invalid links are not being added and printed out as the results.
