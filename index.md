@@ -2,6 +2,7 @@
 ## ***Can I do this?***
 ---
 # [Lab Report 1](https://vrajpurohit7.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+# [Lab Report 2](https://vrajpurohit7.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 # [Monkeys?](https://www.sciencedaily.com/releases/2019/10/191015115356.htm#:~:text=a%20new%20study.-,When%20it%20comes%20to%20being%20willing%20to%20explore%20more%20efficient,Georgia%20State%20University%20psychology%20researchers.)
 
 ---
