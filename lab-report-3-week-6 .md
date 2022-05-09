@@ -1,4 +1,4 @@
-# *Title*
+# * Streamline `ssh`, GitHub Access, Copy Directories*
 
 ## Streamlining ssh Configuration:
 Logging into the remote server from the local machiene can be really fustrating when we need to type such long lines of code:
