@@ -1,4 +1,4 @@
-# * Streamline `ssh`, GitHub Access, Copy Directories*
+# *Streamline `ssh`, GitHub Access, Copy Directories*
 
 ## Streamlining ssh Configuration:
 Logging into the remote server from the local machiene can be really fustrating when we need to type such long lines of code:
@@ -45,5 +45,6 @@ You should see your file there:
 ![Image](3-scp.png)
 
 ## Set up Github Access from ieng6:
+
 
 ## Copy Whole Directories with `scp -r` :
