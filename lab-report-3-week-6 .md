@@ -45,6 +45,27 @@ You should see your file there:
 ![Image](3-scp.png)
 
 ## Set up Github Access from ieng6:
+The public key that we make is stored in the **SSH and GPG keys** tab under the settings in GitHub website.
 
+When go there, it should look something like this:
+
+![Image](3-github_action1.png)
+
+And to access the private key, we can go on our remote server and follow these steps:
+
+![Image](3-github_action2.png)
+
+The **id_ed25519.pub** file holds the private key.
+
+Now we are running git commands to commit and push a change to Github while logged into our ieng6 account. The changes look like follows:
+
+![Image](3-github_action3.png)
+
+Here, for the password, the key doesn't work for me so I had to use a GitHub personal access token (PAT).
+
+And here's the link for the resulting commit and the screenshot.
+[Link](https://github.com/vrajpurohit7/markdown-parser/commit/dc2088c6db10b35faac045211a9678e59c85206f)
+
+![Image](3-github_action4.png)
 
 ## Copy Whole Directories with `scp -r` :
