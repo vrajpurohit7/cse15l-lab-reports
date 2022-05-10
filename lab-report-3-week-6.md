@@ -68,4 +68,4 @@ And here's the link for the resulting commit and the screenshot.
 
 ![Image](3-github_action4.png)
 
-## Copy Whole Directories with `scp -r` :
+## Copying whole directories with `scp -r` :
