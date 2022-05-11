@@ -44,6 +44,7 @@ You should see your file there:
 
 ![Image](3-scp.png)
 
+---
 ## Set up Github Access from ieng6:
 The public key that we make is stored in the **SSH and GPG keys** tab under the settings in GitHub website.
 
@@ -68,6 +69,7 @@ And here's the link for the resulting commit and the screenshot.
 
 ![Image](3-github_action4.png)
 
+---
 ## Copying whole directories with `scp -r` :
 Here we are going to copy the entire `markdown-parser` directory. The following shows how it is done:
 
