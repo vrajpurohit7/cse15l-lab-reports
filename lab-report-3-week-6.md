@@ -81,3 +81,16 @@ So in the last line we can see that markdown-parser repository has been added to
 Now we shall compile and run the files in the `ieng6` account. To do so follow these:
 
 ![Image](3-scp-r_3.png)
+
+Now we repeat the entire thing but only run it in one line. This can be done by inserting the following into the terminal:
+
+```
+scp -r markdown-parser cs15lsp22amx@ieng6.ucsd.edu:~;ssh 
+ieng6 "cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
+```
+It should look something like:
+
+![Image](3-scp-r_single_line1.png)
+![Image](3-scp-r_single_line2.png)
+
+## That's it for this lab report! See you again~
