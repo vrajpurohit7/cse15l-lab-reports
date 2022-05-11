@@ -69,3 +69,13 @@ And here's the link for the resulting commit and the screenshot.
 ![Image](3-github_action4.png)
 
 ## Copying whole directories with `scp -r` :
+Here we are going to copy the entire `markdown-parser` directory. The following shows how it is done:
+
+![Image](3-scp-r_1.png)
+![Image](3-scp-r_2.png)
+
+So in the last line we can see that markdown-parser repository has been added to the `ieng6` account.
+
+Now we shall compile and run the files in the `ieng6` account. To do so follow these:
+
+![Image](3-scp-r_3.png)
