@@ -25,6 +25,8 @@ Expected output for Snippet 1 test file:
 The Test failed for our code and the error is as shown:
 ![Image](4-sp1-2.png)
 
+The test also failed for the other team and we had the same wrong output as above.
+
 ---
 ## Snippet 2
 Test file for Snippet 2:
@@ -42,6 +44,9 @@ Expected output for Snippet 2 test file:
 
 The Test failed for our code and the error is as shown:
 ![Image](4-sp2-2.png)
+
+The test also failed for the other team and we had the same wrong output as above.
+
 ---
 ## Snippet 3
 Test file for Snippet 3:
@@ -78,3 +83,5 @@ Expected output for Snippet 3 test file:
 
 The Test failed for our code and the error is as shown:
 ![Image](4-sp3-2.png)
+
+The test also failed for the other team and we had the same wrong output as above.
