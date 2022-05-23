@@ -2,7 +2,6 @@
 
 [Other team's repository](https://github.com/michellem8/markdown-parser)
 ___
-
 ### My `MarkdownParseTest.java` file:
 ![Image](4-test1.png)
 ![Image](4-test2.png)
