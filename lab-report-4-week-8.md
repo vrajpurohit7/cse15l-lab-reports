@@ -14,8 +14,12 @@ Test file for Snippet 1:
 
 [`code]`](ucsd.edu)
 ```
+Expected output for Snippet 1 test file:
+
+![Image](4-sp1-1.png)
+---
 ## Snippet 2
-Test file for Snippet 1:
+Test file for Snippet 2:
 ```
 [a [nested link](a.com)](b.com)
 
@@ -24,8 +28,12 @@ Test file for Snippet 1:
 [some escaped \[ brackets \]](example.com)
 
 ```
+Expected output for Snippet 2 test file:
+
+![Image](4-sp2-1.png)
+---
 ## Snippet 3
-Test file for Snippet 1:
+Test file for Snippet 3:
 ```
 [this title text is really long and takes up more than 
 one line
@@ -53,3 +61,6 @@ And there's still some more text after that.
 And then there's more text
 
 ```
+Expected output for Snippet 3 test file:
+
+![Image](4-sp3-1.png)
