@@ -3,6 +3,10 @@
 [Other team's repository](https://github.com/michellem8/markdown-parser)
 ___
 
+## My `MarkdownParseTest.java` file:
+![Image](4-test1.png)
+![Image](4-test2.png)
+
 ## Snippet 1
 Test file for Snippet 1:
 ```
@@ -17,6 +21,10 @@ Test file for Snippet 1:
 Expected output for Snippet 1 test file:
 
 ![Image](4-sp1-1.png)
+
+The Test failed for our code and the error is as shown:
+![Image](4-sp1-2.png)
+
 ---
 ## Snippet 2
 Test file for Snippet 2:
@@ -31,6 +39,9 @@ Test file for Snippet 2:
 Expected output for Snippet 2 test file:
 
 ![Image](4-sp2-1.png)
+
+The Test failed for our code and the error is as shown:
+![Image](4-sp2-2.png)
 ---
 ## Snippet 3
 Test file for Snippet 3:
@@ -64,3 +75,6 @@ And then there's more text
 Expected output for Snippet 3 test file:
 
 ![Image](4-sp3-1.png)
+
+The Test failed for our code and the error is as shown:
+![Image](4-sp3-2.png)
