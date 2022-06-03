@@ -2,6 +2,7 @@
 # [Lab Report 2](https://vrajpurohit7.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 # [Lab Report 3](https://vrajpurohit7.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 # [Lab Report 4](https://vrajpurohit7.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+# [Lab Report 5](https://vrajpurohit7.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
 
 ___
 # [Monkeys?](https://www.sciencedaily.com/releases/2019/10/191015115356.htm#:~:text=a%20new%20study.-,When%20it%20comes%20to%20being%20willing%20to%20explore%20more%20efficient,Georgia%20State%20University%20psychology%20researchers.)
